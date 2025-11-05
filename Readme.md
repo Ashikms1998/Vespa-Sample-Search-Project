@@ -15,7 +15,8 @@ curl http://localhost:3000/api/products
 Is the app container running?
 
 docker compose ps
-# STATUS column should be "Up" for
+
+If the container is running the STATUS column should be "Up"
 
 
 PowerShell-Native Searching
@@ -43,4 +44,3 @@ Hybrid search
 Invoke-RestMethod -Method Post -Uri http://localhost:3000/api/search `
   -ContentType 'application/json' `
   -Body (@{ query = 'shoes'; searchType = 'hybrid' } | ConvertTo-Json)
-
