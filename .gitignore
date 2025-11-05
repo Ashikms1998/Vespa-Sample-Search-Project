@@ -1,0 +1,4 @@
+node_modules
+.vscode
+
+I haven't added env files here because since it is a demo project and I don't want any confusion regarding that for peoples who are using it.
